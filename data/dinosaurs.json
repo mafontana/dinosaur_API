@@ -2,7 +2,8 @@
 
 [{
     "name": "Tyrannasaurus Rex",
-    "age": "Cretaceous"
+    "age": "Cretaceous",
+    "picture": "/Users/meredith/dinosaur-app/dinosaur-API/data/stegosaurus.jpg"
 }, {
      "name": "Stegasaurus",
     "age": "Jurassic"

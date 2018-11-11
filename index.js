@@ -2,7 +2,7 @@
 const express = require('express');
 // const bodyParser = require('body-parser')
 const dinosaurs = require('./data/dinosaurs')
-// const cors = require('cors')
+const cors = require('cors')
 
 
 const port = 8001
@@ -10,11 +10,20 @@ const port = 8001
 const app = express()
 
 // app.use(bodyParser.json())
-// app.use(cors())
+app.use(cors())
 
 app.get('/dinosaurs', (req, res) => {
     res.json(dinosaurs)
+}
+);
 
+app.get('/dinosaurs', (req, res) => {
+    res.json(dinosaurs)
+}
+);
+
+app.get('/dinosaurs', (req, res) => {
+    res.json(dinosaurs)
 }
 );
 
